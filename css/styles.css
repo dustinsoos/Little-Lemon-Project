@@ -195,6 +195,23 @@ td {
     margin-top: 2rem;
     margin-left: 0;
   }
+ @media (max-width: 375px) {
+    .section-container-one,
+    .section-container-two,
+    .section-container-three,
+    .section-container-four {
+      grid-column: 1/4;
+      padding: 1rem;
+    }
+    body {
+      margin: 0;
+    }
+    .foot-logo {
+      width: 20%;
+      margin-left: 1rem;
+    }
+  }
+
 
   nav {
     text-align: center;
