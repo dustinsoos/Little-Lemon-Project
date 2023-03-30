@@ -195,7 +195,7 @@ td {
     margin-top: 2rem;
     margin-left: 0;
   }
- @media (max-width: 375px) {
+ @media (max-width: 600px) {
     .section-container-one,
     .section-container-two,
     .section-container-three,
